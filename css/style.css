@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 0px 200px;
+    margin: 0 auto;
+    /* background-color: #d7fcfc; */
+    background: url(/homework6/homework8/images/210614-CAEDSWEB-Images-MultiDomain_Space-Overview-reduced.jpeg) fixed;
+}
+
+.header {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.header-text {
+    color: #d0dbe9;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+
+.first-text {
+    font-family: 'ibarra_real_novaitalic';
+    color: #d0dbe9;
+    padding: 25px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    display: inline-block;
+    background: #5c7a34; 
+    color: #fff;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    border-radius: 3px;
+   }
+
+   .link-style {
+       opacity: .9;
+   }
+
+   .img-links {
+    display: inline-block;
+    color: #054dc9;
+    padding: 25px;
+    text-decoration: none;
+   }
+
+   .second-text {
+    font-family: 'ibarra_real_novaitalic';
+    color: #d0dbe9;
+    padding: 25px;
+   }
+   .footer {
+    color: #d0dbe9;
+    margin-top: 100px;
+   }
