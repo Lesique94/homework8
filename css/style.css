@@ -40,7 +40,8 @@
    }
 
    .link-style {
-       opacity: .9;
+    background-color: #1b273c;
+    opacity: .9;
    }
 
    .img-links {
@@ -55,7 +56,10 @@
     color: #d0dbe9;
     padding: 25px;
    }
+
    .footer {
+    background-color: #1b273c;
+    opacity: .9;
     color: #d0dbe9;
     margin-top: 100px;
    }
