@@ -2,64 +2,199 @@
     box-sizing: border-box;
 }
 
-.container {
-    max-width: 1000px;
-    padding: 0px 200px;
+body {
+    background-color: #EEEFF1;
+} 
+
+.nav_cont_main {
+    background-color: #EEEFF1;
+}
+
+.nav_cont {
+    max-width: 1150px;
+    width: 100%;
     margin: 0 auto;
-    /* background-color: #d7fcfc; */
-    background: url(/homework6/homework8/images/210614-CAEDSWEB-Images-MultiDomain_Space-Overview-reduced.jpeg) fixed;
+    padding: 0 20px;
 }
-
-.header {
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 100px;
-}
-
-.header-text {
-    color: #d0dbe9;
-    padding: 25px;
+.nav_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-indent: 40px;
     text-decoration: none;
-    
+    padding: 40px;
+}
+ .container {
+    background-color: #EEEFF1;
+ }
+
+.container_text {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 250px;
 }
 
-.first-text {
-    font-family: 'ibarra_real_novaitalic';
-    color: #d0dbe9;
-    padding: 25px;
-    margin-bottom: 70px;
+.header_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 80px;
+    text-indent: 40px;
+}
+
+.text1 {
+    max-width: 540px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727272;
+    margin-left: 40px;
 }
 
 .btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
     display: inline-block;
-    background: #5c7a34; 
+    background: #34547A; 
     color: #fff;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     text-decoration: none;
-    border-radius: 3px;
-   }
+    margin-left: 40px;
+    margin-top: 65px;
+}
 
-   .link-style {
-    background-color: #1b273c;
-    opacity: .9;
-   }
+.about_me_cont {
+    background-color: #FFFFFF;
+}
 
-   .img-links {
+.about_me {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 250px;
+    text-align: center;
+}
+.about_me_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 110px;
+}
+.text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727272;
+    padding-bottom: 100px;
+}
+
+.line_of_projects {
+    background-color: #34547A;
+}
+
+.list {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.list>li {
+    padding: 100px 0 100px;
     display: inline-block;
-    color: #054dc9;
-    padding: 25px;
-    text-decoration: none;
-   }
+    margin-right: -4px;
+    width: calc(100% / 6);
+}
 
-   .second-text {
-    font-family: 'ibarra_real_novaitalic';
-    color: #d0dbe9;
-    padding: 25px;
-   }
+.container2 {
+    background-color: #FFFFFF;
+}
 
-   .footer {
-    background-color: #1b273c;
-    opacity: .9;
-    color: #d0dbe9;
-    margin-top: 100px;
-   }
+.cont_2_content {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.cont_2_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 110px;
+}
+
+.video {
+    background-color: #FFFFFF;
+}
+
+.video_cont {
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: -50px;
+    text-align: center;
+}
+iframe {
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #34547A;
+}
+
+.footer_text {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: -20px;
+}
+
+.name_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.info_txt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
